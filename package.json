@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-finnbueno",
+  "version": "1.3.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FinnBueno/eslint-config-finnbueno.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Finn Bon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FinnBueno/eslint-config-finnbueno/issues"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-react": "^7.32.2",
+    "@typescript-eslint/eslint-plugin": "^5.54.1"
+  },
+  "homepage": "https://github.com/FinnBueno/eslint-config-finnbueno#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
